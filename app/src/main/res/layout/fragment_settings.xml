@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="11dp"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:background="#ffffff"
+>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shaketochange̥"
+            android:text="Shake to change Song"
+            android:textColor="#212121"
+            android:layout_marginLeft="11dp"
+            android:textSize="17sp"
+    />
+
+    <Switch android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/switchShake"
+            android:backgroundTint="#212121"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0.2dp"
+          android:layout_margin="25dp"
+          android:background="#bdbdbd"
+          android:layout_below="@id/shaketochange̥"/>
+
+
+</RelativeLayout>
